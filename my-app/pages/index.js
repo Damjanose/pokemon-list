@@ -40,7 +40,7 @@ export default function Home({pokemon}) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Pokemon list</title>>
+        <title>Pokemon list</title>
       </Head>
       <div className={styles.grid}>
         {pokemon.map((pokemon) => (
