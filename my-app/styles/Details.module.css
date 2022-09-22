@@ -1,0 +1,45 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  column-gap: 3rem;
+  padding: 1rem 2rem;
+  width: 66%;
+  margin: auto;
+  background-color: #b4ff005c;
+}
+
+.name {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.type {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.heading, .attribute, .picture, .name {
+  font-weight: bold;
+}
+.attribute {
+  padding-right: 50px;
+}
+.picture {
+  max-width: 200px;
+}
+.nav_link {
+  padding: 1rem 2rem;
+  font-size: 23px;
+  color: green;
+  font-family: sans-serif;
+}
+
+.head_name {
+  text-align: left;
+}
+.table_row:nth-child(odd) {
+  background-color:#92bdbd6e;
+}
+
+.table {
+  width: 100%;
+}
